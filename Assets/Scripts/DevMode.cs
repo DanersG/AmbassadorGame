@@ -10,7 +10,7 @@ public class DevMode: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.Minus)){
             SceneManager.LoadScene("DevRoom");
             //Debug.Log("Go to DevRoom");
         }
