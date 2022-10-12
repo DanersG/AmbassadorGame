@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     private BoxCollider2D boxCollider;
-
+    public float mainSpeed;
     private Vector3 playMove;
 
     private void Start()
@@ -19,12 +19,13 @@ public class Player : MonoBehaviour
     {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
+        
 
         // Reset playMove
         playMove = new Vector3(x,y,0);
         
         // Making it move!
-        transform.Translate(playMove * Time.deltaTime);
+        transform.Translate(playMove * mainSpeed);
         
     }
 }
