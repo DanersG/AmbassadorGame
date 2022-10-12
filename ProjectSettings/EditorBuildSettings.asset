@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Church_exterior.unity
+    path: Assets/Scenes/Castle_Exterior.unity
     guid: e1142ae99fc094d699cb6eadfe88c529
   - enabled: 1
     path: Assets/Scenes/DevRoom.unity
