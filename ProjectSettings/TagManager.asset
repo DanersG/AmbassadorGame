@@ -44,9 +44,9 @@ TagManager:
   - name: Floor
     uniqueID: 4056669059
     locked: 1
-  - name: Player
-    uniqueID: 3308431517
-    locked: 1
   - name: Floor1
     uniqueID: 3263332343
+    locked: 1
+  - name: Player
+    uniqueID: 3308431517
     locked: 1
