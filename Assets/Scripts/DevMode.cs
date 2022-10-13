@@ -15,16 +15,21 @@ public class DevMode: MonoBehaviour
     // Update is called once per frame
     void Awake()
     {
+        //Finds player game object
         GameObject[] findPlayer = GameObject.FindGameObjectsWithTag("Player");
-
+        
         int thingyCount = findPlayer.Length;
 
+        //Checks to see if there is more then one player on screen
         if (thingyCount > 1)
         {
+            //If so deletes all but one player
             Destroy(this.gameObject);
         }
 
+        //Shows or hides overlay
         levelLabel.gameObject.SetActive(Active);
+        //Keeps exsisting objects from scene to scene
         DontDestroyOnLoad(gameObject);
     }
     
@@ -38,6 +43,7 @@ public class DevMode: MonoBehaviour
         if (Input.GetKey(KeyCode.Minus)){
             SceneManager.LoadScene("DevRoom");
             levelLabel.text = "Dev Room 0";
+            //When loading in new scene it spawns you at default (0,0)
             player.position = targetPosition;
         }
         if(Input.GetKey(KeyCode.Alpha0)){
