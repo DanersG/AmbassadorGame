@@ -18,11 +18,11 @@ This is a 2D game in which the player is a medieval postman framed for murder by
 The player will control the postman by making deliveries and making decisions that may make vengeance easier or harder.
 
 
-* MEMBERS:
-Carson French
-Nathan Bradley
-Edwin Morataya
-Ricardo Rodrigues
-Tori Boggs
-Elliott Coombes
-Jules Irvin Williams
+## MEMBERS:
+* Carson French
+* Nathan Bradley
+* Edwin Morataya
+* Ricardo Rodrigues
+* Tori Boggs
+* Elliott Coombes
+* Jules Irvin Williams
