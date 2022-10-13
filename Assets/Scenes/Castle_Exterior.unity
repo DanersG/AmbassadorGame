@@ -21434,7 +21434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5915767844237060256, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5915767844237060256, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_SortingOrder
@@ -21505,6 +21505,10 @@ PrefabInstance:
     - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: levelLabel
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7701811907727093589, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: m_Text
+      value: Castle Exterorot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
