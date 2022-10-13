@@ -14878,17 +14878,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fb5f0b80d1f0744fae2163c8e574ad3, type: 3}
---- !u!114 &1173962831 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4153118052225425809, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
-  m_PrefabInstance: {fileID: 2037044228}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1177962242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5863121599177825677, guid: 8fb5f0b80d1f0744fae2163c8e574ad3, type: 3}
@@ -15908,7 +15897,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1031634953
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -18993,6 +18982,22 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 198350056344970017, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 93.6756
+      objectReference: {fileID: 0}
+    - target: {fileID: 198350056344970017, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 35.5633
+      objectReference: {fileID: 0}
+    - target: {fileID: 198350056344970017, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -353.16217
+      objectReference: {fileID: 0}
+    - target: {fileID: 198350056344970017, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 169.67836
+      objectReference: {fileID: 0}
     - target: {fileID: 3664193048136240359, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -19061,10 +19066,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7663271612824711989, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: m_Text
+      value: Beach
+      objectReference: {fileID: 0}
     - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: levelLabel
       value: 
-      objectReference: {fileID: 1173962831}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
 --- !u!1001 &2051764109
