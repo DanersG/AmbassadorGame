@@ -14543,7 +14543,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1031634953
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -20325,7 +20325,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1031634953
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -21460,9 +21460,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2020587826}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: spawnPoint.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: spawnPoint.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: targetPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: targetPosition.y
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 7701811907727093589, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_Text
       value: Castle Exterior
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+--- !u!4 &2020587826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5915767844237060263, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+  m_PrefabInstance: {fileID: 1741007436}
+  m_PrefabAsset: {fileID: 0}

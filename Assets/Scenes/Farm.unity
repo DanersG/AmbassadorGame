@@ -26535,7 +26535,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1031634953
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -40112,12 +40112,21 @@ PrefabInstance:
       propertyPath: m_Text
       value: Farm
       objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 5915767843487590004}
     - target: {fileID: 7701811907727093589, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_Text
       value: Farm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+--- !u!4 &5915767843487590004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5915767844237060263, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+  m_PrefabInstance: {fileID: 5915767843487590003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6816018005366942962
 PrefabInstance:
   m_ObjectHideFlags: 0

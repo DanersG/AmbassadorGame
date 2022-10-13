@@ -15048,12 +15048,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1369837897}
     - target: {fileID: 7701811907727093589, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_Text
       value: Beach
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+--- !u!4 &1369837897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5915767844237060263, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+  m_PrefabInstance: {fileID: 1369837896}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1379000865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5863121599177825677, guid: 8fb5f0b80d1f0744fae2163c8e574ad3, type: 3}

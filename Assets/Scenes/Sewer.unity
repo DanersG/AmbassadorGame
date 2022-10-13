@@ -7611,12 +7611,21 @@ PrefabInstance:
       propertyPath: m_Text
       value: Sewer
       objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1658912883}
     - target: {fileID: 7701811907727093589, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_Text
       value: Sewer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+--- !u!4 &1658912883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5915767844237060263, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+  m_PrefabInstance: {fileID: 1658912882}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1853199494
 PrefabInstance:
   m_ObjectHideFlags: 0

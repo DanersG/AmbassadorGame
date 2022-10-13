@@ -536,12 +536,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7669680006981944568, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 769875232}
     - target: {fileID: 7701811907727093589, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
       propertyPath: m_Text
       value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+--- !u!4 &769875232 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5915767844237060263, guid: e60c27d5a70ff874fb9612bf07dda490, type: 3}
+  m_PrefabInstance: {fileID: 769875231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &931121544
 GameObject:
   m_ObjectHideFlags: 0
