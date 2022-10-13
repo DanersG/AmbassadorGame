@@ -8,23 +8,34 @@ public class DevMode: MonoBehaviour
     // Start is called before the first frame update
     public Text levelLabel;
     private bool Active = false;
-    // Update is called once per frame
-    private void Start()
-    {
-        levelLabel.gameObject.SetActive(false);
-    }
 
+    // Update is called once per frame
+    void Awake()
+    {
+        GameObject[] findPlayer = GameObject.FindGameObjectsWithTag("Player");
+
+        int thingyCount = findPlayer.Length;
+
+        if (thingyCount > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        levelLabel.gameObject.SetActive(Active);
+        DontDestroyOnLoad(gameObject);
+    }
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.D) && Input.GetKey(KeyCode.LeftControl))
         {
             levelLabel.gameObject.SetActive(!Active);
             Active = !Active;
+            //DontDestroyOnLoad(this.gameObject);
         }
         if (Input.GetKey(KeyCode.Minus)){
             SceneManager.LoadScene("DevRoom");
             levelLabel.text = "Dev Room 0";
-            //Debug.Log("Go to DevRoom");
         }
         if(Input.GetKey(KeyCode.Alpha0)){
             SceneManager.LoadScene("Beach");

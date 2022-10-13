@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -17,9 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Beach.unity
     guid: a79d8a552fbb14d458e889ce2c862e9c
-  - enabled: 1
-    path: Assets/Scenes/Castle_Exterior.unity
-    guid: d0f24fb76bf1bd74fae2a16d5945577d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Castle_Interior.unity
     guid: ce3bcc7e7a00d51448f52724994b4b6f
@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wizard_Interior.unity
     guid: f9c9e9f4aec218a429e76727271a53e3
+  - enabled: 1
+    path: Assets/Scenes/Church_exterior.unity
+    guid: 949c7fc720d464e6287a5b4082fd231a
   m_configObjects: {}
