@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//https://sharpcoderblog.com/blog/unity-3d-create-main-menu-with-ui-canvas
+//Used this tutorial to set up main menu
+
 public class SC_MainMenu : MonoBehaviour
 {
     public GameObject MainMenu;
