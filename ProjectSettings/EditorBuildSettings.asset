@@ -5,36 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Castle/Castle_Exterior.unity
-    guid: e1142ae99fc094d699cb6eadfe88c529
+    path: Assets/Scenes/Main Menu.unity
+    guid: de32e668212750d44bc0fa3b8b04ff22
+  - enabled: 1
+    path: Assets/Scenes/Beach.unity
+    guid: a79d8a552fbb14d458e889ce2c862e9c
   - enabled: 1
     path: Assets/Scenes/DevRoom.unity
     guid: 7ba680151fb9d430796fd62e74086f11
   - enabled: 1
-    path: Assets/Scenes/Beach.unity
-    guid: a79d8a552fbb14d458e889ce2c862e9c
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Castle/Castle_Interior.unity
-    guid: ce3bcc7e7a00d51448f52724994b4b6f
-  - enabled: 1
-    path: Assets/Scenes/Church/Church_Interior.unity
-    guid: dc089a5c6d4766c4f83cfce5f2838b2b
-  - enabled: 1
-    path: Assets/Scenes/Farm/Farm.unity
-    guid: 87b675e909e531f47bd5848d15fd3487
-  - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: dbe2a6d2fde909341847ae7547ce3f8f
   - enabled: 1
-    path: Assets/Scenes/Farm/Mine_Interior.unity
-    guid: 4582844c044f0b44ea2f050b2bae19dd
+    path: Assets/Scenes/Town.unity
+    guid: 8cbb20344654bd049a234d3b05d519ae
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle_Exterior.unity
+    guid: e1142ae99fc094d699cb6eadfe88c529
+  - enabled: 1
+    path: Assets/Scenes/Castle/Castle_Interior.unity
+    guid: ce3bcc7e7a00d51448f52724994b4b6f
   - enabled: 1
     path: Assets/Scenes/Castle/Prison.unity
     guid: af56de3f0967c9c43891b41e8eabccc3
@@ -42,15 +33,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Castle/Sewer.unity
     guid: 0bb7915ef7f49094b8d5308980227ad6
   - enabled: 1
+    path: Assets/Scenes/Church/Church_Interior.unity
+    guid: dc089a5c6d4766c4f83cfce5f2838b2b
+  - enabled: 1
+    path: Assets/Scenes/Church/Church_exterior.unity
+    guid: 949c7fc720d464e6287a5b4082fd231a
+  - enabled: 1
+    path: Assets/Scenes/Farm/Mine_Interior.unity
+    guid: 4582844c044f0b44ea2f050b2bae19dd
+  - enabled: 1
+    path: Assets/Scenes/Farm/Farm.unity
+    guid: 87b675e909e531f47bd5848d15fd3487
+  - enabled: 1
     path: Assets/Scenes/Wizard Hut/Wizard_Exterior.unity
     guid: ff6c637512d9db1439f899c7453f5590
   - enabled: 1
     path: Assets/Scenes/Wizard Hut/Wizard_Interior.unity
     guid: f9c9e9f4aec218a429e76727271a53e3
-  - enabled: 1
-    path: Assets/Scenes/Church/Church_exterior.unity
-    guid: 949c7fc720d464e6287a5b4082fd231a
-  - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: de32e668212750d44bc0fa3b8b04ff22
   m_configObjects: {}
