@@ -9,8 +9,6 @@ public class Player : MonoBehaviour
     private BoxCollider2D boxCollider;
     public float mainSpeed;
     private Vector3 playMove;
-    private int health;
-    private int maxHealth;
 
 
     private void Start()
@@ -30,6 +28,4 @@ public class Player : MonoBehaviour
         // Making it move!
         transform.Translate(playMove * mainSpeed);
     }
-
-    
 }
