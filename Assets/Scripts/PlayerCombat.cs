@@ -68,7 +68,7 @@ public class PlayerCombat : MonoBehaviour
         {
             health -= damage;
             nextDamageTime = Time.time + 1f / damageRate;
-            Debug.Log("Player took " + damage);
+            Debug.Log("Player health is now " + health);
         }
         if (health <= 0)
         {
@@ -78,6 +78,7 @@ public class PlayerCombat : MonoBehaviour
     }
     void PlayerDies()
     {
+        health = maxHealth;
         //Destroy(this.gameObject);
         SceneManager.LoadScene("deathScreen");
     }
