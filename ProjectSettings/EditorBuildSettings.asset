@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/NonePlayerScence/Main Menu.unity
     guid: de32e668212750d44bc0fa3b8b04ff22
   - enabled: 1
     path: Assets/Scenes/Beach.unity
@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wizard Hut/Wizard_Interior.unity
     guid: f9c9e9f4aec218a429e76727271a53e3
+  - enabled: 1
+    path: Assets/Scenes/NonePlayerScence/deathScreen.unity
+    guid: ea859ad2cf14b41fea324ba7dded4f2e
   m_configObjects: {}
