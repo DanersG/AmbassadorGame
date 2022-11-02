@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -77,7 +78,8 @@ public class PlayerCombat : MonoBehaviour
     }
     void PlayerDies()
     {
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
+        SceneManager.LoadScene("deathScreen");
     }
 
 }
