@@ -6,6 +6,11 @@ public class Inventory_UI : MonoBehaviour
 {
 
     public GameObject inventoryPanel;
+
+    private void Start()
+    {
+        inventoryPanel.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {

@@ -18,10 +18,10 @@ public class DevMode: MonoBehaviour
         //Finds player game object
         GameObject[] findPlayer = GameObject.FindGameObjectsWithTag("Player");
         
-        int thingyCount = findPlayer.Length;
+        int playerCount = findPlayer.Length;
 
         //Checks to see if there is more then one player on screen
-        if (thingyCount > 1)
+        if (playerCount > 1)
         {
             //If so deletes all but one player
             Destroy(this.gameObject);
