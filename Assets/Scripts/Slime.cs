@@ -8,7 +8,7 @@ public class Slime : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask playerLayer;
     public int maxHealth = 100;
-    int currentHealth;
+    public int currentHealth;
     void Start()
     {
         currentHealth = maxHealth;
