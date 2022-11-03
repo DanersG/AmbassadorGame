@@ -201,7 +201,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,30 +255,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1542,66 +1517,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      TilesetProps02_12: -6688922329467049080
-      TilesetProps02_24: 1195827178413681401
-      TilesetProps02_2: -1403452091538253804
-      TilesetProps02_46: 5194567798430810732
-      TilesetProps02_48: 2493073155443875926
-      TilesetProps02_15: 6890837510707431416
-      TilesetProps02_20: -8512446632745474832
-      TilesetProps02_21: 7883597688965742052
-      TilesetProps02_49: -3131535978313152409
-      TilesetProps02_55: 5755616482511809663
-      TilesetProps02_36: -2092093762057054995
-      TilesetProps02_41: 5270859418677947162
-      TilesetProps02_9: -7957012430309105747
-      TilesetProps02_18: 401053886440220808
-      TilesetProps02_11: -5958408558799063284
-      TilesetProps02_16: 6319266746113913977
-      TilesetProps02_25: 5406662074515215755
-      TilesetProps02_44: -392866827745760605
-      TilesetProps02_22: -8158943924465926750
-      TilesetProps02_33: 237893073934572527
-      TilesetProps02_54: 6039375622253901758
-      TilesetProps02_39: -1275967205108521895
-      TilesetProps02_52: -9133922362597159789
-      TilesetProps02_53: -3162112223516670523
-      TilesetProps02_23: 9146353180520769946
-      TilesetProps02_43: 163104538432612622
-      TilesetProps02_35: -1125786584548057920
-      TilesetProps02_34: 2732526010587023610
-      TilesetProps02_40: 3397373602977736289
-      TilesetProps02_37: 5041202955942373598
-      TilesetProps02_19: -5575817614440697748
-      TilesetProps02_0: -6332715893841843206
-      TilesetProps02_8: -7544167880705478225
-      TilesetProps02_47: -7729083926218230958
-      TilesetProps02_58: -808212401831734258
-      TilesetProps02_26: 38865692078726782
-      TilesetProps02_3: 2856268634202867807
-      TilesetProps02_27: 7906166046631726800
-      TilesetProps02_57: 5829244534303735161
-      TilesetProps02_29: 4925827490960629908
-      TilesetProps02_50: -3377143927980898673
-      TilesetProps02_30: 4009171769082413452
-      TilesetProps02_32: -7350344295990490395
-      TilesetProps02_4: -483161955061906142
-      TilesetProps02_6: 9147480530601255964
-      TilesetProps02_28: -4107303485841227507
-      TilesetProps02_45: 3955965426484270293
-      TilesetProps02_56: -9029982853258201132
-      TilesetProps02_10: -7374957285661203683
-      TilesetProps02_38: 8891505270723912767
-      TilesetProps02_1: 8461381341755767653
-      TilesetProps02_51: -808470938392420659
-      TilesetProps02_7: 1751619081583330424
-      TilesetProps02_13: 6857342505837999185
-      TilesetProps02_17: -1968897001806640210
-      TilesetProps02_14: 6667056388359495865
-      TilesetProps02_31: 7754483182945511761
-      TilesetProps02_5: 1280574177615593329
-      TilesetProps02_42: -846727452733809346
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

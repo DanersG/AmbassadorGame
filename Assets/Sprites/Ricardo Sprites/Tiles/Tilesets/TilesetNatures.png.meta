@@ -162,7 +162,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -217,30 +216,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1230,53 +1205,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      TilesetNatures_25: -100258781052614113
-      TilesetNatures_13: -1677261362989638358
-      TilesetNatures_32: 1171110677264651065
-      TilesetNatures_31: 4580388707300517697
-      TilesetNatures_16: 1886667878727869712
-      TilesetNatures_22: 6194356352661679025
-      TilesetNatures_26: 5513225146439289599
-      TilesetNatures_38: 2613130479334027705
-      TilesetNatures_43: -4247268902390555444
-      TilesetNatures_7: -6284941138037153067
-      TilesetNatures_29: 1461477023469605155
-      TilesetNatures_19: -2144899140407502804
-      TilesetNatures_34: -4788874852842204672
-      TilesetNatures_37: -524132556135330425
-      TilesetNatures_10: 6237792602706393198
-      TilesetNatures_30: -4264045676946303289
-      TilesetNatures_45: -8326454084343340670
-      TilesetNatures_0: 7602073412900486243
-      TilesetNatures_44: 5086533861589643976
-      TilesetNatures_33: -6840183047288008105
-      TilesetNatures_36: 1027615537823038947
-      TilesetNatures_1: 3749713974235180640
-      TilesetNatures_40: -6445157602141971198
-      TilesetNatures_41: 4379157417230636885
-      TilesetNatures_28: 7612464706617263793
-      TilesetNatures_6: 7519365843639728928
-      TilesetNatures_8: -1532887794042317281
-      TilesetNatures_24: -8729469406493684379
-      TilesetNatures_2: 1063345734033453465
-      TilesetNatures_21: -9207016408849986659
-      TilesetNatures_11: 8301528222196285147
-      TilesetNatures_39: 6149965881545208039
-      TilesetNatures_18: 3468143289526390144
-      TilesetNatures_15: 706892742273842836
-      TilesetNatures_4: 8121348490694049500
-      TilesetNatures_23: 1287600947856515931
-      TilesetNatures_9: -5402991593023456219
-      TilesetNatures_17: 5626905323440913435
-      TilesetNatures_5: 2516756680611658451
-      TilesetNatures_12: 2735386195398473874
-      TilesetNatures_14: 6643621782953519207
-      TilesetNatures_20: -1449491474014840236
-      TilesetNatures_3: -8094449242896737503
-      TilesetNatures_35: -1124920647586823680
-      TilesetNatures_42: -7639845807170369583
-      TilesetNatures_27: -5362900294233068401
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

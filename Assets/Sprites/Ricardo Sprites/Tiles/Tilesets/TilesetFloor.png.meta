@@ -366,7 +366,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -421,30 +420,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2862,121 +2837,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      TilesetFloor_28: -1306737299816258234
-      TilesetFloor_64: 8927093755771835275
-      TilesetFloor_18: -6285956600121703651
-      TilesetFloor_16: 606401448668417158
-      TilesetFloor_69: -3752605210390432505
-      TilesetFloor_72: 806892196997421440
-      TilesetFloor_46: -7983636677504846137
-      TilesetFloor_24: 7722169913025346493
-      TilesetFloor_94: 7371623999807072043
-      TilesetFloor_75: -707377178468570517
-      TilesetFloor_4: 120411196220136989
-      TilesetFloor_74: 5759674990788071211
-      TilesetFloor_90: -5728585047771993768
-      TilesetFloor_98: -2952310086668589523
-      TilesetFloor_52: -2883677904578492391
-      TilesetFloor_45: 8594056444814941772
-      TilesetFloor_79: -2751428883037263040
-      TilesetFloor_82: -290067981064680112
-      TilesetFloor_32: 3174496598969810492
-      TilesetFloor_110: -7364852833229737106
-      TilesetFloor_107: 6461131221607168950
-      TilesetFloor_108: 6164323336987898238
-      TilesetFloor_27: 5210604733512095661
-      TilesetFloor_43: 1848547584971715068
-      TilesetFloor_104: -5494579700567171339
-      TilesetFloor_78: -8739859264566595207
-      TilesetFloor_96: -7876181539746041593
-      TilesetFloor_77: 3851729965967789736
-      TilesetFloor_113: -8438653451438186119
-      TilesetFloor_112: -327355865763039899
-      TilesetFloor_31: -9135179564420063545
-      TilesetFloor_39: 7014779785734269674
-      TilesetFloor_81: 3106278172832319431
-      TilesetFloor_70: -8270896620729671062
-      TilesetFloor_7: 4108464247412590347
-      TilesetFloor_35: -4558284836430588948
-      TilesetFloor_66: 1446890398384012888
-      TilesetFloor_25: 7829839557396055059
-      TilesetFloor_71: 5442860183226377875
-      TilesetFloor_55: -245251201909221956
-      TilesetFloor_2: -8571322000357261580
-      TilesetFloor_15: 5990582598247755449
-      TilesetFloor_19: -2765265017950516989
-      TilesetFloor_111: -7238729595241418121
-      TilesetFloor_103: -1679174144483723251
-      TilesetFloor_17: -8097611140925357974
-      TilesetFloor_50: -2514228450847282416
-      TilesetFloor_5: 3745785081876629726
-      TilesetFloor_84: 3287242367648640740
-      TilesetFloor_49: 456751513908773856
-      TilesetFloor_37: 8291741665505052247
-      TilesetFloor_68: -2515334610481323450
-      TilesetFloor_101: 3554218853513876192
-      TilesetFloor_61: 5475612687492179846
-      TilesetFloor_44: -8915757436241922547
-      TilesetFloor_109: 7296067111667727585
-      TilesetFloor_67: 4484667208979791787
-      TilesetFloor_65: -1203717875652907386
-      TilesetFloor_38: 4722893058218860583
-      TilesetFloor_73: -1794023301713949617
-      TilesetFloor_99: 2558090259449292946
-      TilesetFloor_85: 3624948979701711023
-      TilesetFloor_8: 7209806224720191727
-      TilesetFloor_23: 7256209243211571500
-      TilesetFloor_48: -7045584835589064377
-      TilesetFloor_95: 5256044291501798522
-      TilesetFloor_91: -8599936660829595113
-      TilesetFloor_13: 6419196213422851114
-      TilesetFloor_30: -4741861123355144089
-      TilesetFloor_36: -2848173582086571151
-      TilesetFloor_21: 2113415691994698121
-      TilesetFloor_80: 1559914774513193357
-      TilesetFloor_22: -8049131120504102610
-      TilesetFloor_88: 9008061713261039920
-      TilesetFloor_93: 5788080052788187287
-      TilesetFloor_100: -6129854522975309281
-      TilesetFloor_6: 2040682248624600331
-      TilesetFloor_14: 572018780696481659
-      TilesetFloor_92: -4679873986862788317
-      TilesetFloor_58: 2810535437890153132
-      TilesetFloor_1: 4836581756969154977
-      TilesetFloor_20: -2039341101306461004
-      TilesetFloor_34: 8403826618391010966
-      TilesetFloor_105: 6638868327412960119
-      TilesetFloor_89: 3725760446929090969
-      TilesetFloor_54: -1336037114890404416
-      TilesetFloor_59: 8026084344771901214
-      TilesetFloor_83: 2522329579543779171
-      TilesetFloor_76: 1126551001527788095
-      TilesetFloor_11: -8704369899797396658
-      TilesetFloor_63: 6232464588005388132
-      TilesetFloor_41: -561942050114180280
-      TilesetFloor_97: -6016175025925147774
-      TilesetFloor_33: 2964723669582209706
-      TilesetFloor_60: -4669002850205017924
-      TilesetFloor_106: 2060158880298529859
-      TilesetFloor_42: -4060519842775583815
-      TilesetFloor_87: 6066710827883431336
-      TilesetFloor_9: 3553710051256883171
-      TilesetFloor_12: -1423379255501053490
-      TilesetFloor_3: 1154710262317738515
-      TilesetFloor_0: 1842926534897299343
-      TilesetFloor_29: -3167354399072504716
-      TilesetFloor_40: -4678689809989458046
-      TilesetFloor_51: 5225567092570236177
-      TilesetFloor_10: -3334563030827148372
-      TilesetFloor_57: -2814339307905825202
-      TilesetFloor_26: 7521272723399900321
-      TilesetFloor_62: 4182859703428192423
-      TilesetFloor_53: 9029233179331664576
-      TilesetFloor_86: -6133939077254200876
-      TilesetFloor_102: -1501697389149066608
-      TilesetFloor_47: -1351281646352967900
-      TilesetFloor_56: 6007528974674243088
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
