@@ -8,7 +8,7 @@ public class PlayerCombat : MonoBehaviour
   
     public Animator animator;
     public Transform attackPoint;
-    public float attackRange = 0.5f;
+    public float attackRange = 0.75f;
     public LayerMask enemeyLayers;
     public float attackRate = 1f;
     private float nextAttackTime = 0f;
@@ -16,7 +16,8 @@ public class PlayerCombat : MonoBehaviour
     private float nextDamageTime = 1f;
     private int health;
     private int maxHealth = 100;
-
+    Scene curr;
+    DeathScript death;
 
     private void Start()
     {
@@ -78,8 +79,11 @@ public class PlayerCombat : MonoBehaviour
     }
     void PlayerDies()
     {
+        Debug.Log(SceneManager.GetActiveScene().name);
+        DeathScript.SetLast(SceneManager.GetActiveScene().name);
+        //gameObject.SendMessage("SetLast", curr);
+        //gameObject.GetComponent<DeathScript>().SetLast(currentScence);
         health = maxHealth;
-        //Destroy(this.gameObject);
         SceneManager.LoadScene("deathScreen");
     }
 
