@@ -9,10 +9,13 @@ public class Player : MonoBehaviour
     private BoxCollider2D boxCollider;
     public float mainSpeed;
     private Vector3 playMove;
+    public Transform playerPos;
 
 
     private void Start()
     {
+        playerPos.position = scenevariables.playerPosition;
+        Debug.Log(playerPos.position);
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
