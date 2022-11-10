@@ -1803,7 +1803,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainSpeed: 0.15
-  playerPos: {fileID: 5915767844237060263}
 --- !u!114 &7669680006981944568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1818,7 +1817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelLabel: {fileID: 7701811907727093589}
   targetPosition: {x: 0, y: 0}
-  player: {fileID: 5915767844237060263}
+  player: {fileID: 0}
 --- !u!114 &254212778247533371
 MonoBehaviour:
   m_ObjectHideFlags: 0
