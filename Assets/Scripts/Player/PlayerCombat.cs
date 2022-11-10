@@ -86,5 +86,6 @@ public class PlayerCombat : MonoBehaviour
         health = maxHealth;
         SceneManager.LoadScene("deathScreen");
     }
+   
 
 }
