@@ -12804,11 +12804,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479970813262909025, guid: 7938906f090a1a949bfccfb2c2b3e5a7, type: 3}
       propertyPath: targetPosition.x
-      value: 8.7
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 479970813262909025, guid: 7938906f090a1a949bfccfb2c2b3e5a7, type: 3}
       propertyPath: targetPosition.y
-      value: 9
+      value: -2.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7938906f090a1a949bfccfb2c2b3e5a7, type: 3}
@@ -14532,8 +14532,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -238298237
-  m_SortingLayer: 1
+  m_SortingLayerID: -1031634953
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
