@@ -138,4 +138,3 @@ MonoBehaviour:
     maxNormalAngle: 0
   sceneName: Wizard_Exterior
   targetPosition: {x: 10.5, y: 1, z: 0}
-  player: {fileID: 0}
