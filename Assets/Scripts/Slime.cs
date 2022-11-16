@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Pathfinding;
 public class Slime : MonoBehaviour
 {
     public Transform attackPoint;
@@ -34,13 +34,15 @@ public class Slime : MonoBehaviour
         Collider2D Sight = Physics2D.OverlapCircle(sightPoint.position, sightRange, playerLayer);
         if(Sight != null)
         {
-            Debug.Log("Found Player");
+            
             sightRange = trackRange;
+            this.GetComponent<AIDestinationSetter>().target = Sight.GetComponent<Player>().transform;
             
         }
         else
         {
             sightRange = sightRangeOrigin;
+            this.GetComponent<AIDestinationSetter>().target = null;
         }
     }
     // Update is called once per frame
