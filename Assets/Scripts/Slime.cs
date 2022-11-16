@@ -5,7 +5,11 @@ using UnityEngine;
 public class Slime : MonoBehaviour
 {
     public Transform attackPoint;
+    public Transform sightPoint;
     public float attackRange = 2f;
+    public float sightRange = 4f;
+    public float trackRange = 8f;
+    public float sightRangeOrigin = 4f;
     public LayerMask playerLayer;
     public int maxHealth = 100;
     public int currentHealth;
@@ -27,6 +31,17 @@ public class Slime : MonoBehaviour
         {
             player.GetComponent<PlayerCombat>().TakeDamage(10);
         }
+        Collider2D Sight = Physics2D.OverlapCircle(sightPoint.position, sightRange, playerLayer);
+        if(Sight != null)
+        {
+            Debug.Log("Found Player");
+            sightRange = trackRange;
+            
+        }
+        else
+        {
+            sightRange = sightRangeOrigin;
+        }
     }
     // Update is called once per frame
     public void TakeDamage(int damage)
@@ -46,6 +61,8 @@ public class Slime : MonoBehaviour
             return;
         }
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        Gizmos.DrawWireSphere(sightPoint.position, sightRange);
+
     }
     void Die()
     {
