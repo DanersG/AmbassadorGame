@@ -6,7 +6,6 @@ public class Inventory_UI : MonoBehaviour
 {
 
     public GameObject inventoryPanel;
-    private GameObject[] items;
 
     private void Start()
     {
@@ -20,7 +19,7 @@ public class Inventory_UI : MonoBehaviour
         {
             ToggleInventory();
         }
-        items = GameObject.FindGameObjectsWithTag("Items");
+        
     }
 
     public void ToggleInventory()
