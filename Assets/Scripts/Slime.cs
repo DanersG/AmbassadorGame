@@ -39,7 +39,14 @@ public class Slime : MonoBehaviour
             Die();
         }
     }
-
+    private void OnDrawGizmos()
+    {
+        if(attackPoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
     void Die()
     {
         Debug.Log("Slime has died");
