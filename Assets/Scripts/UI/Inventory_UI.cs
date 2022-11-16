@@ -6,11 +6,13 @@ public class Inventory_UI : MonoBehaviour
 {
 
     public GameObject inventoryPanel;
+    private GameObject[] items;
 
     private void Start()
     {
         inventoryPanel.SetActive(false);
     }
+
     // Update is called once per frame
     void Update()
     {
@@ -18,6 +20,7 @@ public class Inventory_UI : MonoBehaviour
         {
             ToggleInventory();
         }
+        items = GameObject.FindGameObjectsWithTag("Items");
     }
 
     public void ToggleInventory()
@@ -32,3 +35,5 @@ public class Inventory_UI : MonoBehaviour
         }
     }
 }
+
+   
