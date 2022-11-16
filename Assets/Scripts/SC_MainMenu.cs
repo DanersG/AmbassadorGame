@@ -18,15 +18,20 @@ public class SC_MainMenu : MonoBehaviour
 
     public void PlayNowButton()
     {
+        //emorataya: Saving System test
+        PlayerPrefs.DeleteAll();
+
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
         UnityEngine.SceneManagement.SceneManager.LoadScene("Farm");
     }
 
     public void CreditsButton()
     {
+        //emorataya: Saving System test
+        UnityEngine.SceneManagement.SceneManager.LoadScene(PlayerPrefs.GetString("LevelSaved"));
         // Show Credits Menu
-        MainMenu.SetActive(false);
-        CreditsMenu.SetActive(true);
+        //MainMenu.SetActive(false);
+        //CreditsMenu.SetActive(true);
     }
 
     public void MainMenuButton()

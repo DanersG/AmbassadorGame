@@ -17136,6 +17136,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1559543122}
     m_Modifications:
     - target: {fileID: 1315989371517380077, guid: d0f4b8f0beb061f43879b026d45822bb, type: 3}
+      propertyPath: enemyId
+      value: Slime1ChurchExterior
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315989371517380077, guid: d0f4b8f0beb061f43879b026d45822bb, type: 3}
       propertyPath: attackRange
       value: 1
       objectReference: {fileID: 0}
@@ -17494,6 +17498,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 101207237}
     m_Modifications:
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: collectableId
+      value: Key3
+      objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085096, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -17699,6 +17707,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 101207237}
     m_Modifications:
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: collectableId
+      value: Key2
+      objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085096, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -18198,6 +18210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 101207237}
     m_Modifications:
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: collectableId
+      value: Key1
+      objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085096, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: m_RootOrder
       value: 0

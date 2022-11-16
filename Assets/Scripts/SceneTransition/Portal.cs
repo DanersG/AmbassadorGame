@@ -36,6 +36,7 @@ public class Portal : Collidable
         if (coll.name == "Player") {
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
             scenevariables.playerPosition = targetPosition;
+            PlayerPrefs.SetString("LevelSaved", sceneName);
         }
     }
 }

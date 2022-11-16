@@ -9,8 +9,15 @@ public class Slime : MonoBehaviour
     public LayerMask playerLayer;
     public int maxHealth = 100;
     public int currentHealth;
+    //emorataya: Saving System test
+    public string enemyId;
+
     void Start()
     {
+        //emorataya: Saving System test
+        if(PlayerPrefs.GetString(enemyId) == "Dead") {
+            Die();
+        }
         currentHealth = maxHealth;
     }
     private void FixedUpdate()
@@ -36,7 +43,8 @@ public class Slime : MonoBehaviour
     void Die()
     {
         Debug.Log("Slime has died");
-
+        //emorataya: Saving System test
+        PlayerPrefs.SetString(enemyId, "Dead");
         // animation
 
         // diable enemy 
