@@ -33,6 +33,7 @@ public class ItemGiver : MonoBehaviour
                     for (int x = 0; x < invetorySlot.Length; x++)
                     {
                         madeItIntoLoop = true;
+                        Destroy(items[i]);
 
                         Debug.Log(invetorySlot[i].transform.childCount);
                         //Checks to see if invetory slot is open if not move to next
