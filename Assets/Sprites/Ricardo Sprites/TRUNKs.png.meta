@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 7d2c0c3d4651b224494ef3e51e86df25
+guid: 2d73e8456c4478c4ca53926896c87caa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5487847570582600590
-    second: bomb animation_0
+      213: 3128249850578290799
+    second: TRUNKs_0
   - first:
-      213: -4323741549065931551
-    second: bomb animation_1
+      213: -5911642329780875443
+    second: TRUNKs_1
   - first:
-      213: -7991057506202876615
-    second: bomb animation_2
+      213: -7285062411975659608
+    second: TRUNKs_2
   - first:
-      213: -2617755609549496482
-    second: bomb animation_3
-  - first:
-      213: -5284932282735363947
-    second: bomb animation_4
-  - first:
-      213: 7863245738538609815
-    second: bomb animation_5
-  - first:
-      213: 8389980640905660889
-    second: bomb animation_6
-  - first:
-      213: -812989560746974472
-    second: bomb animation_7
+      213: -7078677653132102516
+    second: TRUNKs_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -72,7 +60,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -116,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bomb animation_0
+      name: TRUNKs_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2740fedd5bf37d3b0800000000000000
-      internalID: -5487847570582600590
+      spriteID: f6843683aa6c96b20800000000000000
+      internalID: 3128249850578290799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb animation_1
+      name: TRUNKs_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e4f35328fbfef3c0800000000000000
-      internalID: -4323741549065931551
+      spriteID: d4f8f3e4f90a5fda0800000000000000
+      internalID: -5911642329780875443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb animation_2
+      name: TRUNKs_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9350f0b598f0a1190800000000000000
-      internalID: -7991057506202876615
+      spriteID: 8afe3af855246ea90800000000000000
+      internalID: -7285062411975659608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bomb animation_3
+      name: TRUNKs_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,92 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5f1400842ddbabd0800000000000000
-      internalID: -2617755609549496482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bomb animation_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5987091f61628a6b0800000000000000
-      internalID: -5284932282735363947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bomb animation_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79ca233865cdf1d60800000000000000
-      internalID: 7863245738538609815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bomb animation_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d9069dd0f23f6470800000000000000
-      internalID: 8389980640905660889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bomb animation_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f263994d4ea7b4f0800000000000000
-      internalID: -812989560746974472
+      spriteID: c84b09dcd2c73cd90800000000000000
+      internalID: -7078677653132102516
       vertices: []
       indices: 
       edges: []
