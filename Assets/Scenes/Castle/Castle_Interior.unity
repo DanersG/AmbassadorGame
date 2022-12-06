@@ -1261,6 +1261,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Duke
       objectReference: {fileID: 0}
+    - target: {fileID: 2990834470370672401, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
 --- !u!1 &770988545
@@ -11675,9 +11679,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: KingDialoguePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2081750794234757133, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2081750794407065736, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
       propertyPath: m_Text
       value: King
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990834470370672401, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
@@ -11858,7 +11870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2028011859
 RectTransform:
   m_ObjectHideFlags: 0
