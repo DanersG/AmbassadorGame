@@ -12,20 +12,10 @@ public class ItemGiver : MonoBehaviour
     public bool foundBrokenSword;
 
 
-    void Update()
+   public void FindItem()
     {
-        //items = GameObject.FindGameObjectsWithTag("Items");
-
-        
-    }
-
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
+        if (playerIsClose)
         {
-            playerIsClose = true;
-
             //Checks for Items in invetory
             items = GameObject.FindGameObjectsWithTag("Items");
             invetorySlot = GameObject.FindGameObjectsWithTag("InvetorySlot");
@@ -36,23 +26,35 @@ public class ItemGiver : MonoBehaviour
                 if (items[i].name == "Broken Sword")
                 {
                     foundBrokenSword = true;
-
-                    //Searches all slots in invetory
-                    for (int x = 0; x < invetorySlot.Length; x++)
-                    {
-                        Destroy(items[i]);
-
-                        Debug.Log(invetorySlot[i].transform.childCount);
-                        //Checks to see if invetory slot is open if not move to next
-                        if(invetorySlot[i].transform.childCount == 0)
-                        {
-
-                            //If so drop item into invetory slot
-                            child.transform.SetParent(invetorySlot[i].transform);
-                        }
-                    }
+                    TradeItem(i);
                 }
             }
+        }
+    }
+
+    void TradeItem(int i)
+    {
+        //Searches all slots in invetory
+        Destroy(items[i]);
+        for (int x = 0; x < invetorySlot.Length; x++)
+        {
+            Debug.Log(invetorySlot[x].transform.childCount);
+
+            //Checks to see if invetory slot is open if not move to next
+            if (invetorySlot[x].transform.childCount == 0)
+            {
+                //If so drop item into invetory slot
+                child.transform.SetParent(invetorySlot[x].transform);
+            }
+        }
+    }
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerIsClose = true;
         }
     }
 
@@ -62,7 +64,6 @@ public class ItemGiver : MonoBehaviour
         {
             playerIsClose = false;
             foundBrokenSword = false;
-            
-}
+        }
     }
 }

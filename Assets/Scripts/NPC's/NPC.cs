@@ -5,12 +5,17 @@ using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
+    //Imports ItemGiver script
+    //public ItemGiver invetory;
+
     public GameObject dialoguePanel;
     public Text dialogueText;
     public string[] dialogue;
+    //public string[] questDialogue;
     private int index;
 
     public GameObject contButton;
+    public GameObject giveButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -20,6 +25,7 @@ public class NPC : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             contButton.SetActive(false);
+            giveButton.SetActive(false);
             if(dialoguePanel.activeInHierarchy)
             {
                 zeroText();
@@ -35,6 +41,7 @@ public class NPC : MonoBehaviour
         if(dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
+            giveButton.SetActive(true);
         }
     }
 
@@ -68,6 +75,11 @@ public class NPC : MonoBehaviour
         {
             zeroText();
         }
+    }
+
+    public void QuestCheck()
+    {
+
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
