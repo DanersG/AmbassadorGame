@@ -9,19 +9,27 @@ public class ItemGiver : MonoBehaviour
     public GameObject[] items;
     public GameObject[] invetorySlot;
     public GameObject child;
-    public bool foundInvetory;
     public bool foundBrokenSword;
-    public bool madeItIntoLoop;
 
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void Update()
+    {
+        //items = GameObject.FindGameObjectsWithTag("Items");
+
+        
+    }
+
+
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerIsClose = true;
+
             //Checks for Items in invetory
             items = GameObject.FindGameObjectsWithTag("Items");
             invetorySlot = GameObject.FindGameObjectsWithTag("InvetorySlot");
+
             //Searches all items in invetory
             for (int i = 0; i < items.Length; i++)
             {
@@ -32,14 +40,12 @@ public class ItemGiver : MonoBehaviour
                     //Searches all slots in invetory
                     for (int x = 0; x < invetorySlot.Length; x++)
                     {
-                        madeItIntoLoop = true;
                         Destroy(items[i]);
 
                         Debug.Log(invetorySlot[i].transform.childCount);
                         //Checks to see if invetory slot is open if not move to next
                         if(invetorySlot[i].transform.childCount == 0)
                         {
-                            foundInvetory = true;
 
                             //If so drop item into invetory slot
                             child.transform.SetParent(invetorySlot[i].transform);
@@ -55,9 +61,8 @@ public class ItemGiver : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerIsClose = false;
-            foundInvetory = false;
             foundBrokenSword = false;
-            madeItIntoLoop = false;
+            
 }
     }
 }
