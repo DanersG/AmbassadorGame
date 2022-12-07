@@ -1711,7 +1711,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6677425750771237074, guid: e29c9b8ba30a2c94185c032c4a54db4e, type: 3}
       propertyPath: sceneName
-      value: CutScene2CastleInterior
+      value: CastleInterior
       objectReference: {fileID: 0}
     - target: {fileID: 6677425750771237074, guid: e29c9b8ba30a2c94185c032c4a54db4e, type: 3}
       propertyPath: changeTime
