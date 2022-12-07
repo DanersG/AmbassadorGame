@@ -22,7 +22,7 @@ public class SC_MainMenu : MonoBehaviour
         PlayerPrefs.DeleteAll();
 
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Farm");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("TownIntro");
     }
 
     public void CreditsButton()
