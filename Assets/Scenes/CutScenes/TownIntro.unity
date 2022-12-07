@@ -364,6 +364,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.2489929
       objectReference: {fileID: 0}
+    - target: {fileID: 2990834470370672401, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
 --- !u!1001 &1238044281
@@ -466,7 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6125262c22797fd4fa7fc60c7484ad1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 65
+  changeTime: 53
   sceneName: CastleExt_Invitation
 --- !u!1 &1390922538
 GameObject:
@@ -723,6 +727,26 @@ PrefabInstance:
       propertyPath: m_PlayableAsset
       value: 
       objectReference: {fileID: 11400000, guid: a873e249b0dda374587c75e814cf471b, type: 2}
+    - target: {fileID: 8605483163552025601, guid: 8188dda069b52414d9d1ce0a996d49d7, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605483163552025601, guid: 8188dda069b52414d9d1ce0a996d49d7, type: 3}
+      propertyPath: m_SceneBindings.Array.data[4].key
+      value: 
+      objectReference: {fileID: -3601338401258330397, guid: a873e249b0dda374587c75e814cf471b, type: 2}
+    - target: {fileID: 8605483163552025601, guid: 8188dda069b52414d9d1ce0a996d49d7, type: 3}
+      propertyPath: m_SceneBindings.Array.data[5].key
+      value: 
+      objectReference: {fileID: 4075828305693579987, guid: a873e249b0dda374587c75e814cf471b, type: 2}
+    - target: {fileID: 8605483163552025601, guid: 8188dda069b52414d9d1ce0a996d49d7, type: 3}
+      propertyPath: m_SceneBindings.Array.data[6].key
+      value: 
+      objectReference: {fileID: 8241142388563083910, guid: a873e249b0dda374587c75e814cf471b, type: 2}
+    - target: {fileID: 8605483163552025601, guid: 8188dda069b52414d9d1ce0a996d49d7, type: 3}
+      propertyPath: m_SceneBindings.Array.data[7].key
+      value: 
+      objectReference: {fileID: -5745458943490246824, guid: a873e249b0dda374587c75e814cf471b, type: 2}
     - target: {fileID: 8605483163552025601, guid: 8188dda069b52414d9d1ce0a996d49d7, type: 3}
       propertyPath: m_SceneBindings.Array.data[2].value
       value: 
