@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutScenes/CastleExt_Invitation.unity
     guid: 25398c99feea49c4b8e363f8c83e6c2b
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/CutScene2CastleInterior.unity
+    guid: 72eff631e712971439cb7d0ac8e2a577
   m_configObjects: {}
