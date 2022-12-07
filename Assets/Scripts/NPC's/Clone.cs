@@ -5,8 +5,7 @@ using UnityEngine;
 public class Clone : MonoBehaviour
 {
     public Transform attackPoint;
-    public Vector2 attackRangePoint1;
-    public Vector2 attackRangePoint2;
+    public float attackRange = 2f;
     public LayerMask playerLayer;
     public float attackSpeed = 2f;
     private float attackmotion = 1f;
@@ -30,7 +29,7 @@ public class Clone : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            
+            Debug.Log("bingus");
             randomNumber = Random.Range(0, 4);
             if (randomNumber == 1)
             {
@@ -70,7 +69,7 @@ public class Clone : MonoBehaviour
     void Attack()
     {
        
-        Collider2D player = Physics2D.OverlapArea(attackRangePoint1, attackRangePoint2, playerLayer);
+        Collider2D player = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayer);
         if(player != null)
         {
             player.GetComponent<PlayerCombat>().TakeDamage(100);
