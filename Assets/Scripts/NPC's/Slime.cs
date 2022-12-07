@@ -20,29 +20,34 @@ public class Slime : MonoBehaviour
     {
         //emorataya: Saving System test
         if(PlayerPrefs.GetString(enemyId) == "Dead") {
-            Die();
+            //Die();
         }
         currentHealth = maxHealth;
+        
     }
     private void FixedUpdate()
     {
-        Collider2D player = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayer);
-        if(player != null)
+        if (playerLayer != null)
         {
-            player.GetComponent<PlayerCombat>().TakeDamage(10);
-        }
-        Collider2D Sight = Physics2D.OverlapCircle(sightPoint.position, sightRange, playerLayer);
-        if(Sight != null)
-        {
-            
-            sightRange = trackRange;
-            this.GetComponent<AIDestinationSetter>().target = Sight.GetComponent<Player>().transform;
-            
-        }
-        else
-        {
-            sightRange = sightRangeOrigin;
-            this.GetComponent<AIDestinationSetter>().target = null;
+            Collider2D player = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayer);
+            if (player != null)
+            {
+                player.GetComponent<PlayerCombat>().TakeDamage(10);
+            }
+
+            Collider2D Sight = Physics2D.OverlapCircle(sightPoint.position, sightRange, playerLayer);
+            if (Sight != null)
+            {
+
+                sightRange = trackRange;
+                this.GetComponent<AIDestinationSetter>().target = Sight.GetComponent<Player>().transform;
+
+            }
+            else
+            {
+                sightRange = sightRangeOrigin;
+                this.GetComponent<AIDestinationSetter>().target = null;
+            }
         }
     }
     // Update is called once per frame
