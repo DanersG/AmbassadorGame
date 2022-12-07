@@ -35,18 +35,21 @@ public class Slime : MonoBehaviour
                 player.GetComponent<PlayerCombat>().TakeDamage(10);
             }
 
-            Collider2D Sight = Physics2D.OverlapCircle(sightPoint.position, sightRange, playerLayer);
-            if (Sight != null)
+            if (this.GetComponent<AIDestinationSetter>() != null)
             {
+                Collider2D Sight = Physics2D.OverlapCircle(sightPoint.position, sightRange, playerLayer);
+                if (Sight != null)
+                {
 
-                sightRange = trackRange;
-                this.GetComponent<AIDestinationSetter>().target = Sight.GetComponent<Player>().transform;
+                    sightRange = trackRange;
+                    this.GetComponent<AIDestinationSetter>().target = Sight.GetComponent<Player>().transform;
 
-            }
-            else
-            {
-                sightRange = sightRangeOrigin;
-                this.GetComponent<AIDestinationSetter>().target = null;
+                }
+                else
+                {
+                    sightRange = sightRangeOrigin;
+                    this.GetComponent<AIDestinationSetter>().target = null;
+                }
             }
         }
     }
