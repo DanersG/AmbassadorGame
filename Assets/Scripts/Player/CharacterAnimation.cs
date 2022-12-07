@@ -11,7 +11,7 @@ public class CharacterAnimation : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    public void Update()
+    void Update()
     {
         if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)){
             anim.SetBool("walkFront", true);
