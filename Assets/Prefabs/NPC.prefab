@@ -145,7 +145,7 @@ MonoBehaviour:
   dialogue: []
   responce: []
   contButton: {fileID: 0}
-  wordSpeed: 0.05
+  wordSpeed: 0.02
   playerIsClose: 0
 --- !u!114 &6207269369906221394
 MonoBehaviour:
