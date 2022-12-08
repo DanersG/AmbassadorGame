@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public float mainSpeed;
     private Vector3 playMove;
     public Transform playerPos;
+    public GameObject[] invetorySlot;
 
 
     private void Start()
@@ -29,5 +30,25 @@ public class Player : MonoBehaviour
         playMove = new Vector3(x,y,0);
         // Making it move!
         transform.Translate(playMove * mainSpeed);
+    }
+    public void PickUp(GameObject item)
+    {
+       
+        invetorySlot = GameObject.FindGameObjectsWithTag("InvetorySlot");
+        //Debug.Log(invetorySlot.Length);
+        for(int i = 0; i < invetorySlot.Length; i++)
+        {
+            if(invetorySlot[i].transform.childCount == 0)
+            {
+                Debug.Log("Found Slot");
+                
+                GameObject InvetoryItem = GameObject.Instantiate(item);
+                InvetoryItem.transform.SetParent(invetorySlot[i].transform);
+                Debug.Log(item.transform.parent.name);
+                Debug.Log(invetorySlot[i].transform.childCount);
+                return;
+            }
+
+        }
     }
 }
