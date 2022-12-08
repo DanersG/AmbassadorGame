@@ -17816,8 +17816,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 101207237}
     m_Modifications:
     - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: pickUpSpot
+      value: 
+      objectReference: {fileID: 1861350645}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: pickUpRange
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: collectableId
       value: Key3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085096, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: m_RootOrder
@@ -18071,8 +18083,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 101207237}
     m_Modifications:
     - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: pickUpSpot
+      value: 
+      objectReference: {fileID: 1161188998}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: pickUpRange
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: collectableId
       value: Key2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085096, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: m_RootOrder
@@ -18634,8 +18658,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 101207237}
     m_Modifications:
     - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: pickUpSpot
+      value: 
+      objectReference: {fileID: 1398219500}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: pickUpRange
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: collectableId
       value: Key1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085096, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: m_RootOrder
