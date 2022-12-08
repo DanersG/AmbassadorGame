@@ -719,7 +719,7 @@ MonoBehaviour:
   explosionPrefab: {fileID: 9040768723070368923, guid: b0bcdfe57c815324fb76008d74274375, type: 3}
   explosionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   explosionDuration: 1
   explosionRadius: 5
   destructibleTiles: {fileID: 1291577866}
@@ -13719,8 +13719,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 302832453
-  m_SortingLayer: 7
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 16
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 7.5, y: 7.5, z: 0}

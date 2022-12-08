@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8775493049056126471}
   - component: {fileID: 8034659989532447477}
   - component: {fileID: 6364964919695931020}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &8034659989532447477
 SpriteRenderer:
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 6201968399209606837}
   - component: {fileID: 6270868876381804421}
   - component: {fileID: 1803749080507466281}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &6270868876381804421
 SpriteRenderer:
@@ -270,7 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3784182961888575465}
   - component: {fileID: 9040768723070368923}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,6 @@ MonoBehaviour:
   start: {fileID: 1803749080507466281}
   middle: {fileID: 6364964919695931020}
   end: {fileID: 5424987753313698791}
-  bombSound: {fileID: 0}
 --- !u!1 &9214481029764512542
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +321,7 @@ GameObject:
   - component: {fileID: 7955981808877350165}
   - component: {fileID: 4187968474131113995}
   - component: {fileID: 5424987753313698791}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +366,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &4187968474131113995
 SpriteRenderer:
