@@ -38733,7 +38733,7 @@ PrefabInstance:
       objectReference: {fileID: 1596003365}
     - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: dialogue.Array.size
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -38767,6 +38767,49 @@ PrefabInstance:
     - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: dialogue.Array.data[6]
       value: "Hurry along now, day\u2019s a\u2019wasting. "
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: Thank you dear. I always bragged how my little one always takes care
+        of others.
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: " Now, I need you to head over to the alchemist and get me my cold medicine.
+        I\u2019ve been so frail without it."
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: "Don\u2019t let him cheat you, just tell him my name and things should
+        be alright."
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: 'Also, it might be a good idea to get that sword of yours to the blacksmith. '
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: conditionalMeet.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: conditionalMeet.Array.data[0]
+      value: Thank you dear. I always bragged how my little one always takes care
+        of others.
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: conditionalMeet.Array.data[1]
+      value: "Now, I need you to head over to the alchemist and get me my cold medicine.
+        I\u2019ve been so frail without it."
+      objectReference: {fileID: 0}
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: conditionalMeet.Array.data[2]
+      value: "Don\u2019t let him cheat you, just tell him my name and things should
+        be alright. Also, it might be a good idea to get that sword of yours to the
+        blacksmith. "
       objectReference: {fileID: 0}
     - target: {fileID: 2824874900512583084, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: m_RootOrder

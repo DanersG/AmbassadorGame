@@ -309,6 +309,7 @@ MonoBehaviour:
   start: {fileID: 1803749080507466281}
   middle: {fileID: 6364964919695931020}
   end: {fileID: 5424987753313698791}
+  bombSound: {fileID: 0}
 --- !u!1 &9214481029764512542
 GameObject:
   m_ObjectHideFlags: 0
