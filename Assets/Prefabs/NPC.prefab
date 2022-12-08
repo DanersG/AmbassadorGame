@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 2824874900512583085}
   - component: {fileID: 2824874900512583074}
   - component: {fileID: 2824874900512583075}
-  - component: {fileID: 2824874900512583073}
+  - component: {fileID: -5041266169105338147}
+  - component: {fileID: 6207269369906221394}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -127,7 +128,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
---- !u!114 &2824874900512583073
+--- !u!114 &-5041266169105338147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2824874900512583086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ba8720d4ebbee42b1671e3851710d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogue: []
+  responce: []
+  contButton: {fileID: 0}
+  wordSpeed: 0.05
+  playerIsClose: 0
+--- !u!114 &6207269369906221394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,10 +161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 0}
   dialogueText: {fileID: 0}
-  dialogue:
-  - There you are, Mr. Ambassador! We've been looking all over for you.
-  - ' We''re going to be late to the ceremony with the king. C''mon!'
-  - The king is anxious for your arrival. Let's go!
-  contButton: {fileID: 0}
-  wordSpeed: 0.03
+  responceText: {fileID: 0}
+  dialogue: []
+  responce: []
+  wordSpeed: 0.5
   playerIsClose: 0
