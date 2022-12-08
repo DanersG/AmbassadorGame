@@ -5,6 +5,8 @@ using UnityEngine;
 public class CharacterAnimation : MonoBehaviour
 {
     private Animator anim;
+    private float nextAttackTime =0f;
+    public float attackDelay = .5f;
     [SerializeField] private AudioSource swordSlash;
     [SerializeField] private AudioSource walkOnGrass;
     void Start()
@@ -105,9 +107,10 @@ public class CharacterAnimation : MonoBehaviour
         }
 
         //Attack
-        if(Input.GetKey(KeyCode.Space)){
+        if(Input.GetKey(KeyCode.Space) && Time.time >= nextAttackTime){
            anim.SetBool("spinAttack", true);
            swordSlash.Play();
+            nextAttackTime = Time.time + attackDelay;
         }
         //Stop attack
         else{

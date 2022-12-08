@@ -22,6 +22,7 @@ public class PlayerCombat : MonoBehaviour
     private void Start()
     {
         health = maxHealth;
+        Debug.Log(health);
     }
     void Update()
     {
@@ -42,8 +43,8 @@ public class PlayerCombat : MonoBehaviour
 
         // Detect enemies in range
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemeyLayers);
+        //
         
-
         //Damage
         foreach(Collider2D enemy in hitEnemies)
         {
