@@ -15474,6 +15474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoyDialoguePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2081750794234757133, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2081750794407065736, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
       propertyPath: m_Text
       value: Boy
@@ -16502,6 +16506,10 @@ PrefabInstance:
     - target: {fileID: 2081750794234757133, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
       propertyPath: m_Name
       value: GirlDialoguePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081750794234757133, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2081750794407065736, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
       propertyPath: m_Text
