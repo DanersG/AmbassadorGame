@@ -1385,11 +1385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: responce.Array.data[0]
-      value: Select this first
+      value: Select first
       objectReference: {fileID: 0}
     - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: responce.Array.data[1]
-      value: Select this second
+      value: Select second
       objectReference: {fileID: 0}
     - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: responce.Array.data[2]
@@ -1402,6 +1402,10 @@ PrefabInstance:
     - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: responce.Array.data[4]
       value: Hilda
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818540794417125507, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
