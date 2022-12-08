@@ -11,6 +11,9 @@ public class BombController : MonoBehaviour
     public int bombAmount = 1;
     private int bombsRemaining;
 
+    [Header("BombSound")]
+    public AudioSource bombSound; 
+
     [Header("Explosion")]
     public Explosion explosionPrefab;
     public LayerMask explosionLayerMask;
@@ -64,10 +67,14 @@ public class BombController : MonoBehaviour
 
     private void Explode(Vector2 position, Vector2 direction, int length)
     {
+        
         if (length <= 0)
         {
             return;
         }
+
+        bombSound.Play();
+
 
         position += direction;
 

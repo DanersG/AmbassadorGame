@@ -5,12 +5,14 @@ public class Explosion : MonoBehaviour
     public AnimatedSpriteRenderer start;
     public AnimatedSpriteRenderer middle;
     public AnimatedSpriteRenderer end;
+    
 
     public void SetActiveRenderer(AnimatedSpriteRenderer renderer)
     {
         start.enabled = renderer == start;
         middle.enabled = renderer == middle;
         end.enabled = renderer == end;
+        
     }
 
     public void SetDirection(Vector2 direction)
