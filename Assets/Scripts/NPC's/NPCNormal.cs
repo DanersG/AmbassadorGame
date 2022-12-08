@@ -8,7 +8,6 @@ public class NPCNormal : MonoBehaviour
     public GameObject dialoguePanel;
     public Text dialogueText;
     public string[] dialogue;
-    public string[] responce;
     private int index;
 
     public GameObject contButton;
@@ -42,7 +41,7 @@ public class NPCNormal : MonoBehaviour
     private void zeroText()
     {
         dialogueText.text = "";
-        index = 0;
+        //index = 0;
         dialoguePanel.SetActive(false);
     }
 
