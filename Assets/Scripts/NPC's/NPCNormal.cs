@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPCBackup : MonoBehaviour
+public class NPCNormal : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public Text dialogueText;
@@ -12,7 +12,6 @@ public class NPCBackup : MonoBehaviour
     private int index;
 
     public GameObject contButton;
-    public GameObject giveButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -22,7 +21,6 @@ public class NPCBackup : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             contButton.SetActive(false);
-            giveButton.SetActive(false);
             if (dialoguePanel.activeInHierarchy)
             {
                 zeroText();
@@ -38,7 +36,6 @@ public class NPCBackup : MonoBehaviour
         if (dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
-            giveButton.SetActive(true);
         }
     }
 

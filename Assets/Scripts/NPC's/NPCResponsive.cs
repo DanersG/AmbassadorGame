@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPC : MonoBehaviour
+public class NPCResponsive : MonoBehaviour
 {
-    ItemGiver ItemGiver;
-
     public GameObject dialoguePanel;
     public Text dialogueText;
     public Text responceText;
@@ -15,8 +13,6 @@ public class NPC : MonoBehaviour
     private int index;
     private int responceTacker;
 
-    public GameObject contButton;
-    public GameObject giveButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -25,8 +21,6 @@ public class NPC : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            contButton.SetActive(false);
-            giveButton.SetActive(false);
             if(dialoguePanel.activeInHierarchy)
             {
                 zeroText();
@@ -59,7 +53,6 @@ public class NPC : MonoBehaviour
         //Checks to see if all the text is written out
         if (dialogueText.text == dialogue[index])
         {
-            giveButton.SetActive(true);
             //If this is the first time interacting
             if (responceTacker == 0 && responce.Length >= 0)
             {
@@ -77,8 +70,30 @@ public class NPC : MonoBehaviour
                     dialogueText.text = dialogue[2];
                 }
             }
-            //contButton.SetActive(true);
-            //giveButton.SetActive(true);
+            else if (responceTacker == 2 && responce.Length >= 2)
+            {
+                responceText.text = responce[2];
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    dialogueText.text = dialogue[3];
+                }
+            }
+            else if (responceTacker == 3 && responce.Length >= 3)
+            {
+                responceText.text = responce[3];
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    dialogueText.text = dialogue[4];
+                }
+            }
+            else if (responceTacker == 4 && responce.Length >= 4)
+            {
+                responceText.text = responce[4];
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    dialogueText.text = dialogue[5];
+                }
+            }
         }
     }
 
@@ -102,8 +117,6 @@ public class NPC : MonoBehaviour
 
     public void NextLine()
     {
-        contButton.SetActive(false);
-
         if(index < dialogue.Length - 1)
         {
             index++;
