@@ -670,7 +670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: sceneName
-      value: PickUp3
+      value: PickUp2
       objectReference: {fileID: 0}
     - target: {fileID: 4917707277810085094, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: pickUpRange
@@ -690,7 +690,7 @@ PrefabInstance:
       objectReference: {fileID: 5757674860531530974, guid: ee18781c8fea28e49b847ca98ae97232, type: 3}
     - target: {fileID: 4917707277810085097, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
       propertyPath: m_Name
-      value: Key
+      value: Shell
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abd0c3f7664e9aa4d8c6da021ba1d8f3, type: 3}
