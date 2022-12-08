@@ -68,7 +68,12 @@ public class Key : MonoBehaviour {
         //emorataya: Saving System test
         PlayerPrefs.SetString(collectableId, "collected");
         if(collectableId == "Key3")
-                UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+
+        if(collectableId == "Shell")
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+
+
         Collider2D player = Physics2D.OverlapCircle(pickUpSpot.position, pickUpRange, playerLayer);
         GameObject item = this.gameObject;
         player.GetComponent<Player>().PickUp(item);

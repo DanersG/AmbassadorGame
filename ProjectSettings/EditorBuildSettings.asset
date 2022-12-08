@@ -74,4 +74,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutScenes/PickUp1.unity
     guid: f0b351e77edc6ed49b60ff6000821563
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/PickUp2.unity
+    guid: 114118495c7640c44b6603146029a7f9
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/PickUp3.unity
+    guid: 4d93d655616df5f4e932a5a7e921b0f5
   m_configObjects: {}
