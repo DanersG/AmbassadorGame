@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 19419828}
   - component: {fileID: 19419829}
   m_Layer: 0
-  m_Name: Slime
+  m_Name: King Skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -224,8 +224,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19419827}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.185507, y: 14.11288, z: 1.293599}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.21, y: 14, z: 1.293599}
+  m_LocalScale: {x: 0.733, y: 0.7209, z: 1}
   m_Children: []
   m_Father: {fileID: 1758336387}
   m_RootOrder: 14
@@ -270,7 +270,7 @@ SpriteRenderer:
   m_SortingLayerID: -986535779
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6536591430009127341, guid: a126bf4241f80144aba704ef9b2a1538, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b92bb3b9b813d445a17e9e4636a1efe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

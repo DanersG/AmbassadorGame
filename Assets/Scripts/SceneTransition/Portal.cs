@@ -18,7 +18,7 @@ public class Portal : Collidable
     {
         //Finds player game object
         GameObject[] findPlayer = GameObject.FindGameObjectsWithTag("Player");
-        
+
         int playerCount = findPlayer.Length;
 
         //Checks to see if there is more then one player on screen
@@ -34,6 +34,7 @@ public class Portal : Collidable
 
     protected override void OnCollide(Collider2D coll) {
         if (coll.name == "Player") {
+
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
             scenevariables.playerPosition = targetPosition;
             PlayerPrefs.SetString("LevelSaved", sceneName);

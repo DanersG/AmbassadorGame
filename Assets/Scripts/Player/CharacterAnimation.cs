@@ -68,7 +68,6 @@ public class CharacterAnimation : MonoBehaviour
            //PLAY footsteps sound effect
            if(!walkOnGrass.isPlaying){
                 walkOnGrass.Play();
-                Debug.Log("Playing sound");
            }
 
            //Attack while walking
