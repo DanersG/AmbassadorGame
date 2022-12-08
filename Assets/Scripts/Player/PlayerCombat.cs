@@ -14,14 +14,14 @@ public class PlayerCombat : MonoBehaviour
     private float nextAttackTime = 0f;
     private float damageRate = 2f;
     private float nextDamageTime = 1f;
-    private int health;
+    static int health = 100;
     private int maxHealth = 100;
     Scene curr;
     DeathScript death;
 
     private void Awake()
     {
-        health = maxHealth;
+        //health = maxHealth;
         Debug.Log(health);
     }
     void Update()
