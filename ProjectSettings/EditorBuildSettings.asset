@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Castle/Boss Arena.unity
     guid: 3ef6a417846c14ef0b5cbb17bb07d509
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/AfterDefeat.unity
+    guid: 738f72ccaedbf564fad812c3c9f3d47e
   m_configObjects: {}
