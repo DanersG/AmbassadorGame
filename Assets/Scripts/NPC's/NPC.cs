@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour
     public GameObject dialoguePanel;
     public Text dialogueText;
     public string[] dialogue;
+    public string[] responce;
     //public string[] questDialogue;
     private int index;
 

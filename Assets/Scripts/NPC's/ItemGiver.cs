@@ -8,7 +8,7 @@ public class ItemGiver : MonoBehaviour
     public bool playerIsClose;
     public GameObject[] items;
     public GameObject[] invetorySlot;
-    public GameObject child;
+    //public GameObject child;
     public bool foundBrokenSword;
 
 
@@ -44,7 +44,7 @@ public class ItemGiver : MonoBehaviour
             if (invetorySlot[x].transform.childCount == 0)
             {
                 //If so drop item into invetory slot
-                child.transform.SetParent(invetorySlot[x].transform);
+                itemToGive.transform.SetParent(invetorySlot[x].transform);
             }
         }
     }
