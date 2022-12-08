@@ -38,7 +38,7 @@ public class Clone : MonoBehaviour
             {
                 nextAttackTime = Time.time + 1000;
                 attackmotion = Time.time + attackSpeed;
-                Attack();
+                //Attack();
             }
             else
             {
