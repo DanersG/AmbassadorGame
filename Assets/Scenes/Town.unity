@@ -97816,19 +97816,19 @@ PrefabInstance:
       objectReference: {fileID: 1259833174}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: dialogue.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: responce.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Oh hi there! What can I do for you?
+      value: Thank you for choosing Speedy Swords. Come again really quick!
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: Yeah, here you go!
+      value: Thank you for choosing Speedy Swords. Come again really quick!
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: dialogue.Array.data[2]
@@ -97836,7 +97836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: responce.Array.data[0]
-      value: Can you repair my sword?
+      value: Nevermind
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: responce.Array.data[1]
