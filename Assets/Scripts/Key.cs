@@ -12,6 +12,7 @@ public class Key : MonoBehaviour {
     private bool pickUpAllowed;
     //emorataya: Saving System test
     public string collectableId;
+    public string sceneName;
 
 	// Use this for initialization
     // Used for ingame text prompt
@@ -45,6 +46,8 @@ public class Key : MonoBehaviour {
         {
             //pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+
         }
     }
 
