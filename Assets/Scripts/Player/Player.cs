@@ -56,6 +56,7 @@ public class Player : MonoBehaviour
                 
                 GameObject InvetoryItem = GameObject.Instantiate(item);
                 InvetoryItem.transform.SetParent(invetorySlot[i].transform);
+                InvetoryItem.gameObject.transform.localScale = new Vector3(1, 1, 1);
                 Debug.Log(item.transform.parent.name);
                 Debug.Log(invetorySlot[i].transform.childCount);
                 return;
