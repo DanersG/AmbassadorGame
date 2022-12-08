@@ -5,76 +5,115 @@ using UnityEngine;
 public class CharacterAnimation : MonoBehaviour
 {
     private Animator anim;
-
+    [SerializeField] private AudioSource swordSlash;
+    [SerializeField] private AudioSource walkOnGrass;
     void Start()
     {
         anim = GetComponent<Animator>();
+    }
+    
+    void StopAll(){
+            anim.SetBool("walkRight", false);
+            anim.SetBool("walkLeft", false);
+            anim.SetBool("walkBack", false);
+            anim.SetBool("walkFront", false);
     }
 
     void Update()
     {
         if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)){
+            StopAll();
             anim.SetBool("walkFront", true);
+
+            //PLAY footsteps sound effect
+            if(!walkOnGrass.isPlaying)
+                walkOnGrass.Play();
+
+            //Attack while walking    
             if(Input.GetKey(KeyCode.Space)){
                 anim.SetBool("walkFront", false);
                 anim.SetBool("spinAttack", true);
+                swordSlash.Play();
             }
             else{
                 anim.SetBool("spinAttack", false);
             }
         }
-        else{
-            anim.SetBool("walkFront", false);
-        }
 
-        if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)){
+        else if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)){
+           StopAll();
            anim.SetBool("walkBack", true);
+
+           //PLAY footsteps sound effect
+           if(!walkOnGrass.isPlaying)
+                walkOnGrass.Play();
+
+           //Attack while walking
            if(Input.GetKey(KeyCode.Space)){
                 anim.SetBool("walkBack", false);
                 anim.SetBool("spinAttack", true);
+                swordSlash.Play();
             }
             else{
                 anim.SetBool("spinAttack", false);
             }
         }
-        else{
-            anim.SetBool("walkBack", false);
-        }
 
-        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)){
+        else if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)){
+           StopAll();
            anim.SetBool("walkLeft", true);
-            if(Input.GetKey(KeyCode.Space)){
+           
+           //PLAY footsteps sound effect
+           if(!walkOnGrass.isPlaying){
+                walkOnGrass.Play();
+                Debug.Log("Playing sound");
+           }
+
+           //Attack while walking
+           if(Input.GetKey(KeyCode.Space)){
                 anim.SetBool("walkLeft", false);
                 anim.SetBool("spinAttack", true);
+                swordSlash.Play();
             }
             else{
                 anim.SetBool("spinAttack", false);
             }
         }
-        else{
-            anim.SetBool("walkLeft", false);
-        }
 
-        if(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)){
+        else if(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)){
+           StopAll();
            anim.SetBool("walkRight", true);
+
+           //PLAY footsteps sound effect
+           if(!walkOnGrass.isPlaying)
+                walkOnGrass.Play();
+
+           //Attack while walking
            if(Input.GetKey(KeyCode.Space)){
                 anim.SetBool("walkRight", false);
                 anim.SetBool("spinAttack", true);
+                swordSlash.Play();
             }
             else{
                 anim.SetBool("spinAttack", false);
             }
         }
+        //Stop walk & SoundFX footsteps
         else{
-            anim.SetBool("walkRight", false);
+            walkOnGrass.Stop();
+            StopAll();
         }
 
+        //Attack
         if(Input.GetKey(KeyCode.Space)){
            anim.SetBool("spinAttack", true);
+           swordSlash.Play();
         }
+        //Stop attack
         else{
             anim.SetBool("spinAttack", false);
         }
-
+        
+        
     }
 }
