@@ -87,7 +87,7 @@ public class Slime : MonoBehaviour
 
         Destroy(this.gameObject);
 
-
-
+        if(enemyId == "Duke")
+            UnityEngine.SceneManagement.SceneManager.LoadScene("AfterDefeat");
     }
 }
