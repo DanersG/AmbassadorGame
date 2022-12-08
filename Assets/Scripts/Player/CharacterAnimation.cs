@@ -33,11 +33,13 @@ public class CharacterAnimation : MonoBehaviour
 
             //Attack while walking    
             if(Input.GetKey(KeyCode.Space)){
+                attackDelay = 0f;
                 anim.SetBool("walkFront", false);
                 anim.SetBool("spinAttack", true);
                 swordSlash.Play();
             }
             else{
+                attackDelay = .5f;
                 anim.SetBool("spinAttack", false);
             }
         }
@@ -55,8 +57,10 @@ public class CharacterAnimation : MonoBehaviour
                 anim.SetBool("walkBack", false);
                 anim.SetBool("spinAttack", true);
                 swordSlash.Play();
+                attackDelay = 0f;
             }
             else{
+                attackDelay = .5f;
                 anim.SetBool("spinAttack", false);
             }
         }
@@ -72,11 +76,13 @@ public class CharacterAnimation : MonoBehaviour
 
            //Attack while walking
            if(Input.GetKey(KeyCode.Space)){
+                attackDelay = 0f;
                 anim.SetBool("walkLeft", false);
                 anim.SetBool("spinAttack", true);
                 swordSlash.Play();
             }
             else{
+                attackDelay = .5f;
                 anim.SetBool("spinAttack", false);
             }
         }
@@ -91,11 +97,13 @@ public class CharacterAnimation : MonoBehaviour
 
            //Attack while walking
            if(Input.GetKey(KeyCode.Space)){
+                attackDelay = 0f;
                 anim.SetBool("walkRight", false);
                 anim.SetBool("spinAttack", true);
                 swordSlash.Play();
             }
             else{
+                attackDelay = .5f;
                 anim.SetBool("spinAttack", false);
             }
         }
