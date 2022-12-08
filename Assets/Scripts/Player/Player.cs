@@ -27,7 +27,6 @@ public class Player : MonoBehaviour
 
         // Reset playMove
         playMove = new Vector3(x,y,0);
-        
         // Making it move!
         transform.Translate(playMove * mainSpeed);
     }
