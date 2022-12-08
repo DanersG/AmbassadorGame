@@ -121,7 +121,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.015018463, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8653879
+  m_Radius: 1.59
 --- !u!114 &7636542543227302858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f6c773a9f482c345b3f4e6169d82d54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleSprite: {fileID: 0}
+  idleSprite: {fileID: -5487847570582600590, guid: 7d2c0c3d4651b224494ef3e51e86df25, type: 3}
   animationSprites:
   - {fileID: -5487847570582600590, guid: 7d2c0c3d4651b224494ef3e51e86df25, type: 3}
   - {fileID: -4323741549065931551, guid: 7d2c0c3d4651b224494ef3e51e86df25, type: 3}
