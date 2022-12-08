@@ -19,7 +19,7 @@ public class PlayerCombat : MonoBehaviour
     Scene curr;
     DeathScript death;
 
-    private void Start()
+    private void Awake()
     {
         health = maxHealth;
         Debug.Log(health);
