@@ -98334,7 +98334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: responce.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -98350,7 +98350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: responce.Array.data[0]
-      value: Nevermind
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8001770111174493323, guid: 3cc1827102b95f94f8bd4f3516a33351, type: 3}
       propertyPath: responce.Array.data[1]
