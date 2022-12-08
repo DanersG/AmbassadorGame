@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPCNormal : MonoBehaviour
+public class NPCRevist : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public Text dialogueText;
@@ -41,7 +41,7 @@ public class NPCNormal : MonoBehaviour
     private void zeroText()
     {
         dialogueText.text = "";
-        index = 0;
+        //index = 0;
         dialoguePanel.SetActive(false);
     }
 
