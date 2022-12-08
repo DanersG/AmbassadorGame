@@ -50,51 +50,47 @@ public class NPCResponsive : MonoBehaviour
             }
         }
 
-        //Checks to see if all the text is written out
-        if (dialogueText.text == dialogue[index])
+        //If this is the first time interacting
+        if (responceTacker == 0 && responce.Length >= 0)
         {
-            //If this is the first time interacting
-            if (responceTacker == 0 && responce.Length >= 0)
+            responceText.text = responce[0];
+            if (Input.GetKeyDown(KeyCode.Return))
             {
-                responceText.text = responce[0];
-                if (Input.GetKeyDown(KeyCode.Return))
-                {
-                    dialogueText.text = dialogue[1];
-                }
-            }
-            else if (responceTacker == 1 && responce.Length >= 1)
-            {
-                responceText.text = responce[1];
-                if (Input.GetKeyDown(KeyCode.Return))
-                {
-                    dialogueText.text = dialogue[2];
-                }
-            }
-            else if (responceTacker == 2 && responce.Length >= 2)
-            {
-                responceText.text = responce[2];
-                if (Input.GetKeyDown(KeyCode.Return))
-                {
-                    dialogueText.text = dialogue[3];
-                }
-            }
-            else if (responceTacker == 3 && responce.Length >= 3)
-            {
-                responceText.text = responce[3];
-                if (Input.GetKeyDown(KeyCode.Return))
-                {
-                    dialogueText.text = dialogue[4];
-                }
-            }
-            else if (responceTacker == 4 && responce.Length >= 4)
-            {
-                responceText.text = responce[4];
-                if (Input.GetKeyDown(KeyCode.Return))
-                {
-                    dialogueText.text = dialogue[5];
-                }
+                dialogueText.text = dialogue[1];
             }
         }
+        else if (responceTacker == 1 && responce.Length >= 1)
+        {
+            responceText.text = responce[1];
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                dialogueText.text = dialogue[2];
+            }
+        }
+        else if (responceTacker == 2 && responce.Length >= 2)
+        {
+            responceText.text = responce[2];
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                dialogueText.text = dialogue[3];
+            }
+        }
+        else if (responceTacker == 3 && responce.Length >= 3)
+        {
+            responceText.text = responce[3];
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                dialogueText.text = dialogue[4];
+            }
+        }
+        else if (responceTacker == 4 && responce.Length >= 4)
+        {
+            responceText.text = responce[4];
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                dialogueText.text = dialogue[5];
+            }
+        } 
     }
 
     private void zeroText()
