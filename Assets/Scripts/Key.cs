@@ -43,7 +43,7 @@ public class Key : MonoBehaviour {
         }        
     }
     
-    private void OnTriggerExit2D(Collider2D collision)
+    /*private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.name.Equals("Player"))
         {
@@ -52,7 +52,7 @@ public class Key : MonoBehaviour {
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
 
         }
-    }
+    }*/
 
     private void OnDrawGizmos()
     {
