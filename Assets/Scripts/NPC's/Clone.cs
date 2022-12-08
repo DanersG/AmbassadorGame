@@ -1,3 +1,4 @@
+//Nathan Bradley
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,6 +20,7 @@ public class Clone : MonoBehaviour
     public Sprite empty;
     public Sprite preFire;
     public Sprite Beam;
+    public float AttackRange  = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -67,13 +69,28 @@ public class Clone : MonoBehaviour
         }
 
     }
+    private void OnDrawGizmos()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawLine(attackRangePoint1, attackRangePoint2);
+
+    }
     void Attack()
     {
-       
+
         Collider2D player = Physics2D.OverlapArea(attackRangePoint1, attackRangePoint2, playerLayer);
-        if(player != null)
+        //Collider2D player = Physics2D.OverlapCircle(attackPoint.position, 10, playerLayer);
+        if (player != null)
         {
             player.GetComponent<PlayerCombat>().TakeDamage(100);
+            //player.GetComponent<PlayerCombat>().TakeDamage(10);
+            //player.SendMessage("TakeDamage", 100);
+            //Debug.Log(player.name);
+            Debug.Log("Player found");
         }
+        //gameObject.SendMessage("TakeDamage", 5);
     }
 }

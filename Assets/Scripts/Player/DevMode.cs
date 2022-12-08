@@ -101,5 +101,11 @@ public class DevMode: MonoBehaviour
             levelLabel.text = "Inside Wizard Hut";
             player.position = targetPosition;
         }
+        if (Input.GetKey(KeyCode.Equals))
+        {
+            SceneManager.LoadScene("Boss Arena");
+            levelLabel.text = "Inside Boss Arena";
+            
+        }
     }
 }

@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutScenes/TitleIntro.unity
     guid: 43c0ef11223d3e347bae97f63ed201a8
+  - enabled: 1
+    path: Assets/Scenes/Castle/Boss Arena.unity
+    guid: 3ef6a417846c14ef0b5cbb17bb07d509
   m_configObjects: {}
