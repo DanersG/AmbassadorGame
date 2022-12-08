@@ -2153,7 +2153,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2824874899987333435}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00ba8720d4ebbee42b1671e3851710d3, type: 3}
   m_Name: 
@@ -97947,6 +97947,14 @@ PrefabInstance:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2081750793073127825, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081750793073127836, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2081750793073127839, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -98077,6 +98085,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+--- !u!114 &2081750793183629047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7078471544026637246, guid: bc1153c7df1b2444ba630ac54632eec7, type: 3}
+  m_PrefabInstance: {fileID: 2081750793183629046}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2824874899987333435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98084,6 +98103,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1262297578}
     m_Modifications:
+    - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5041266169105338147, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: wordSpeed
       value: 0.05
@@ -98161,6 +98184,50 @@ PrefabInstance:
       value: guard
       objectReference: {fileID: 0}
     - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 1944928708}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: responceText
+      value: 
+      objectReference: {fileID: 2081750793183629047}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 1138298619}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: responce.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: Have I seen you before?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Ok, you really look like the guy who killed the king. Be safe out there!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: My mistake carry on
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: responce.Array.data[0]
+      value: 'No I dont think you have '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207269369906221394, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
+      propertyPath: responce.Array.data[1]
+      value: ' I am not the man you are looking for *waves hand*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818540794417125507, guid: f1a922edc1534804f9b5d202ae20ffd7, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}

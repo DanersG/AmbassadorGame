@@ -28,7 +28,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4917707277810085097}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 984.0654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -104,10 +104,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpAllowed: 0
-  collectableId: 
-  sceneName: 
+  collectableId: Key3
+  sceneName: PickUp1
   pickUpSpot: {fileID: 1481126372645034864}
-  pickUpRange: 0.5
+  pickUpRange: 0.52
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
